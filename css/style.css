@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* img {
+	background-image: url("../img/events-heavenly-header.jpg");
+	background-position: center top;
+	background-size: cover;
+    width: 100%;
+} */
+#Home
+{
+    width: 100%;
+    height: 660px;
+    background-image: url(../img/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+}
+.HomeOverlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+
+#leftMenu
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+
+#Home h2
+{
+    margin-top: 200px;
+    
+}
+
+#Home h2,p
+{
+    text-align: center;
+    
+}
+
+
+.sidenav
+{
+    background-color: #414658;
+}
+
+.sidenav a:hover{
+    color:  rgba(214, 46, 51 , 0.4);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#home-content {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+#home-content h2
+{
+    font-size: 60px;
+}
+@media  (max-width: 768px){
+    .joinus{
+        display: inline-block;
+        padding-top: 20px;
+    }
+    #count{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: 300px;
+        position: relative;
+        text-align: center !important;
+        justify-content: center;
+justify-items:center ;
+    }
+    #count .tim{
+      padding-top: 5px;
+      text-align: center;
+      display: inline-block;
+      justify-content: center;
+justify-items:center ;
+  }
+  .count-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn
+{ justify-content: center;
+justify-items:center ;
+}
+    
+    
+}
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/events-heavenly-header.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+  }
+  .home .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(214, 46, 51, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+  }
+  .home .overlay h2 {
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 500;
+  }
+  .nav {
+    display: flex;
+    height: 100vh;
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: -300px ;
+  }
+  .nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+  }
+  nav i {
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .nav .nav-item {
+    background-color: #000;
+    padding: 30px;
+    position: fixed;
+    height: 100%;
+  }
+  .nav-item a {
+    transition: color 0.7s;
+    -webkit-transition: color 0.7s;
+    -moz-transition: color 0.7s;
+    -ms-transition: color 0.7s;
+    -o-transition: color 0.7s;
+}
+  .nav-item a:hover {
+    color: #d62e33;
+  }
+  .open-icon {
+    margin-top: 100px;
+    padding: 20px;
+    padding-left: 100px;
+    color:white;
+  }
+  #duration div {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+
+
+#count{
+    background-image: url(../img/invitation-2508607__340.jpg);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative  ;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.count-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tim {
+    color: #fff;
+    font-size: 30px ;
+    font-weight: 100;
+}
+/* .first{
+ overflow-y: visible;   
+}
+.inner{
+    overflow-y: hidden;
+} */
+#count .tim{
+    border: #fff 1px solid;
+    width: 160px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+  .social-list i{
+    border: #000 1px solid;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+  
+  
+  .social-list i:hover{
+    border:#d62e33 1px solid;
+    color: #fff;
+    background-color: #d62e33 !important;
+  }
+  .btn {
+  background-color: #d62e33 !important;
+  color: #fff !important;
+  padding: 10px;
+  border: #d62e33 1px solid;
+}
+.btn:hover{
+  background-color: #fff  !important;
+  color:#d62e33!important;
+  padding: 10px;
+  border: #d62e33 1px solid;
+}
